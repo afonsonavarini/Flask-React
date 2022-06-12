@@ -1,0 +1,161 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+}
+.Input {
+  font-family: 'Montserrat';
+  position: relative;
+  font-weight: normal;
+}
+
+.Input-text {
+  height: 35px;
+  font-family: 'Montserrat';
+  display: block;
+  margin: 0;
+  padding: var(--inputPaddingV) var(--inputPaddingH);
+  color: inherit;
+  width: 100%;
+  font-family: inherit;
+  font-size: var(--inputFontSize);
+  font-weight: inherit;
+  line-height: var(--inputLineHeight);
+  border: none;
+  border-radius: 0.4rem;
+  transition: box-shadow var(--transitionDuration);
+  font-weight: normal;
+}
+
+.Input-text::placeholder {
+  font-family: 'Montserrat';
+  font-weight: normal;
+  color: #B0BEC5;
+}
+
+.Input-text:focus {
+  outline:auto;
+  box-shadow: 0.2rem 0.8rem 1.6rem var(--colorPrimary600);
+  font-weight: normal;
+}
+
+.label-title {
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+.label-title-p {
+  font-family: 'Montserrat';
+  margin-top: -15px;
+}
+
+.blocks {
+  padding: 10px;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#button-enviar {
+  width: 90px;
+  height: 47px;
+  background-color: #913c99;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding-left: 12px;
+  border-radius: 15px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.input-curriculo {
+  padding-left: 10px;
+}
+
+#curriculo-label {
+  padding: 20px;
+}
+
+#button-cadastro {
+  width: 200px;
+  margin-right: 10px;
+  height: 47px;
+  background-color: #913c99;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding-left: 10px;
+  border-radius: 15px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#button-limpar {
+  width: 200px;
+  height: 47px;
+  background-color: #913c99;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding-left: 10px;
+  border-radius: 15px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.button-active:active {
+  background-color: aqua;
+}
+
+.user-list {
+  font-family: 'Montserrat';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#user-list {
+  font-family: 'Montserrat';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-apagar {
+  width: 200px;
+  height: 40px;
+  background-color: #913c99;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  font-size: 16px;
+  border-radius: 15px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
