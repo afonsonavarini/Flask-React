@@ -83,7 +83,7 @@ function App() {
 
       <div className='blocks'>
         <h1 className='label-title' id='user-list'>- Lista de Clientes -</h1>
-        <p className='label-title-p' id='user-list'>Clique para deletar</p>
+        <p className='label-title' id='user-list'>Clique para</p>
         {(typeof dados.clientes === 'undefined') ? (
           <p id='user-list'>Carregando...</p>
         ) : (
