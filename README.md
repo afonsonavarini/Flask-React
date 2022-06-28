@@ -1,6 +1,6 @@
-# CloudOpss
+# Flask-React
 
-## Avaliação Técnica CloudOpss- Cadastro de Cliente com Back-end em Python com React como framework escolhido como preferência.
+## Aplicação base em React utilizando Flask - Cadastro de Cliente com Back-end em Python utilizando React como framework escolhido.
 
 # Instalação
 
@@ -77,13 +77,6 @@
             }\
         }\
       }
-  
-  # Considerações Finais:
-  
-  Em processo de desenvolvimento, o Git Flow, recurso pedido no desafio, corrompeu alguns arquivos do Back-end, sendo necessário que fosse refeito completamente.
-  O Docker não foi implementado devido à configuração da máquina estar bloqueando acesso ao mesmo (problema em processo de resolução).
- 
-  Todas as funcionalidades especificadas no desafio foram cumpridas e se encontram presentes no projeto deste repositório.
   
   Dúvidas ou questionamentos, entrar em contato por:
   #### WhatsApp: (54) 99698-2868
